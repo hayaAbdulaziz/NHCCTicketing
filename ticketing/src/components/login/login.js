@@ -7,7 +7,7 @@ export class Login extends React.Component {
     render(){
         return (
         <div className="base-container">
-        <div className="header">Login</div>
+        <div className="header">Welcome to NHCC Ticketing app</div>
         <div className="content">
         <div className="image">
         <img src="https://nhcc.digitum.com.sa/image/logo.png"/>
