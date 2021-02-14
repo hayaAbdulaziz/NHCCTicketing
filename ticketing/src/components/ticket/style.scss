@@ -5,15 +5,15 @@ nav {
     padding: 0;
     overflow: auto;
     border: 1px solid rgba(197, 162, 115, 0);
-    background: rgba(14, 70, 22, 0.63);
-    // -webkit-perspective: 1000px;
+ 
+    -webkit-perspective: 1000px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-variant: initial;
+    color: rgb(7, 58, 22);
   
-
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +23,7 @@ nav {
 
 .flex-item-left {
   background-color: #f1f1f1;
+  
   padding: 10px;
   flex: 50%;
 }
@@ -36,17 +37,18 @@ nav {
  
   nav a {
     display: block;
-    color: white;
+    color: rgb(7, 58, 22);
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     float: left;
   }
   nav a:hover:not(.active) {
-    background-color:  rgba(6, 63, 36, 0.562);
+    background-color:   rgba(7, 58, 22, 0.473);
   }
   link{
     text-align: center;
+    color: rgb(7, 58, 22);
   }
   @media screen and (max-width: 900px) {
     ul.sidenav {
@@ -60,4 +62,5 @@ nav {
       float: none;
     }
   
-  }}
+  }
+}

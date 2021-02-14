@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+// @import "~bootstrap/scss/bootstrap";
 
 .App {
   text-align: center;
@@ -120,5 +121,17 @@
   &:focus {
     outline: none;
   }
-}
 
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}}}

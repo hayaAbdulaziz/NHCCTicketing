@@ -3,6 +3,12 @@ import React from "react";
 export class Login extends React.Component {
     constructor(props){
         super(props);
+        this.state = {
+            email: "",
+            password: "",
+            loginErrors: ""
+          };
+          
     }
     render(){
         return (
